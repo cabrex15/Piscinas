@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,800&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,12 +34,66 @@
                       <a class="nav-link" href="#">Modelos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Presupuestos</a>
+                      <a class="nav-link" href="pages/tienda.html">Tienda</a>
                     </li>
                   </ul>
                 </div>
               </nav>
         </div>
     </header>
+    <main>
+      <section class="container index-container">
+        <!-- fila -->
+        <div class="row">
+            <!-- contenedor de tarjetas -->
+            <div class="col-12 col-lg-12">
+                <!-- fila dentro de una columna -->
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card effect">
+                            <img src="assets/img/piscinas.jpg" class="card-img-top" alt="imagen tarjeta" height="250px">
+                            <div class="card-body">
+                              <h5 class="card-title">Piscinas</h5>
+                              <p class="card-text">¡Elegí la tuya!</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <article class="card effect">
+                          <img src="assets/img/accesorios.jpg" class="card-img-top" alt="imagen tarjeta" height="250px">
+                          <div class="card-body">
+                            <h5 class="card-title">Accesorios</h5>
+                            <p class="card-text">¡Encontrá lo que buscás!</p>
+                          </div>
+                      </article>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card effect">
+                        <img src="assets/img/presupuesto.jpg" class="card-img-top" alt="imagen tarjeta" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Presupuestos</h5>
+                          <p class="card-text">¡Cotizá tu proyecto!</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="index-hero">
+      <div class="index-hero-1">
+          <div class="index-hero-p">
+              <h1 class="hero-p-title">AquaPlast Piscinas!</h1>
+              <p class="hero-p1">Somos una empresa familiar, con basta experiencia en el mercado y en creciente desarrollo. Diseño, calidad y confianza puestos a tu servicio, para lograr tu piscina soñada.</p>
+              <form action="page/Registro.html">
+                  <button class="hero1-button">Aplicar!</button>
+              </form>
+          </div>
+          <div class="hero1-img1">
+              <img class="hero1-img1-1" src="assets/img/spa1.png" alt="">
+          </div>
+      </div>
+  </section>
+    </main>
 </body>
 </html>
