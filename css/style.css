@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+body {
+    background-color: #ececec;
+}
 /* header */
 .nav-link {
     font-size: 16px;
@@ -36,10 +38,11 @@
 }
 /*index card */
 .index-container {
-    margin-top: 50px;
+    margin-top: 75px;
     height: 400px;
     display: grid;
     align-items: center;
+    cursor: pointer;
 }
 .card-title {
     font-size: 25px;
@@ -53,40 +56,44 @@
     text-align: center;
 }
 /*index hero */
-.index-hero {
-    display: grid;
-    align-items: center;
-}
-.index-hero-1 {
+.hero-container {
+    margin-top: 100px;
     display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    height: 600px;
-    padding: 224px;
-    background-color: #8ed1fc;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(/assets/img/fondo-agua.jpg);
 }
-.hero1 img {
-    padding: 10px;
-    float: right;
+.hero-p {
+    margin-top: 0px;
+    margin-right: 150px;
+    height: 500px;
     width: 500px;
+    color: white;
 }
-.titulo {
-    color: #4BBFB4;
-
-}
-.hero1 .index-hero-p .hero-p-title {
-    color: #4BBFB4;
+.hero-p-title {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }
 .hero1-button {
+    margin-top: 30px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-    padding: 10px 40px;
-    border-radius: 10px;
+    padding: 25px 30px;
+    border-radius: 20px;
     border: none;
     background-color: #4BBFB4;
+    cursor: pointer;
+    display: flex;
+    margin-left: 50%;
 }
-
+.hero1-img1-1 {
+    height: 300px;
+    margin-left: 70px;
+}
 
 /* ingreso y recupero */
 
