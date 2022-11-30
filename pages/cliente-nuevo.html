@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaPlast Piscinas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,800&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body onload="mostrarContacto();">
+    <header>
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/cropped-LOGO-AQ-WEB.png" class="me-2"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Modelos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pages/tienda.html">Tienda</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  dolorum adipisci recusandae praesentium dicta!
+                </p>
+      
+                <div class="info">
+                  <div class="information">
+                    <img src="img/location.png" class="icon" alt="" />
+                    <p>92 Cherry Drive Uniondale, NY 11553</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/email.png" class="icon" alt="" />
+                    <p>lorem@ipsum.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/phone.png" class="icon" alt="" />
+                    <p>123-456-789</p>
+                  </div>
+                </div>
+      
+                <div class="social-media">
+                  <p>Connect with us :</p>
+                  <div class="social-icons">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                
+            <h1>Datos de contacto!</h1>
+            <table class="form">
+                <tr>
+                    <th>Nombre</th>
+                    <td><input type="text" id="txtNombre"></td>
+                </tr>
+                <tr>
+                    <th>Correo</th>
+                    <td><input type="email" id="txtCorreo"></td>
+                </tr>
+                <tr>
+                    <th>Telefono</th>
+                    <td><input type="number" id="txtTelefono"></td>
+                </tr>
+                <tr>
+                    <th>Mensaje</th>
+                    <td><input type="text" id="txtMensaje"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><button onclick="agregarContacto ();">Enviar</button></td>
+                </tr>
+            </table>
+
+            <h2>Solicitud de Contactos!</h2>
+            <table id="listarContacto">
+                <tr>
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                        <th>Mensaje</th>
+                    </thead>
+                </tr>
+                <tbody id="tbDatos"></tbody>
+            </table>
+          <script src="../main.js"></script>
+    </main>
+</body>
+</html>
