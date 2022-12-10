@@ -203,8 +203,54 @@ body {
     font-weight: bold;
     height: 50px;
 }
-/* Tienda */
-
+/* Footer */
+.footer {
+    background-color: #274f6e;
+    color: white;
+    padding: 50px 30px; }
+    .footer__content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px; }
+      .footer__content h4 {
+        color: #00ff88;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 20px; }
+      .footer__content-list li {
+        max-width: 10px 0; }
+      .footer__content-list a {
+        color: white; }
+        .footer__content-list a:hover {
+          color: #00ff88; }
+    .footer__rrss {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px; }
+      .footer__rrss .rs-github {
+        color: white;
+        font-size: 30px; }
+        .footer__rrss .rs-github:hover {
+          color: #0d0e0d; }
+      .footer__rrss .rs-facebook {
+        color: white;
+        font-size: 30px; }
+        .footer__rrss .rs-facebook:hover {
+          color: #2279e4; }
+      .footer__rrss .rs-instagram {
+        color: white;
+        font-size: 30px; }
+        .footer__rrss .rs-instagram:hover {
+          color: #c92d8f; }
+      .footer__rrss .rs-twitter {
+        color: white;
+        font-size: 30px; }
+        .footer__rrss .rs-twitter:hover {
+          color: #55acee; }
+    .footer__copy {
+      margin-top: 40px;
+      text-align: center;
+      color: #00ff88; }
 
 
 
